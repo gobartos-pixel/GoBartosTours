@@ -10,7 +10,7 @@ export default function Tours({ onNavigate }: ToursProps) {
       <section className="relative h-[50vh] flex items-center justify-center">
         <div className="absolute inset-0">
           <img
-            src="/EC557B8C-BA8F-417E-A613-92235124642D.JPG"
+            src="/image.png"
             alt="Bern cityscape"
             className="w-full h-full object-cover"
           />
@@ -38,7 +38,7 @@ export default function Tours({ onNavigate }: ToursProps) {
 
               <div className="relative mb-8">
                 <img
-                  src="/C719AFC6-C861-411B-9CFE-AED7E4193390.JPG"
+                  src="/image.png"
                   alt="Bern streets"
                   className="w-full h-80 object-cover mb-6"
                 />
@@ -141,7 +141,7 @@ export default function Tours({ onNavigate }: ToursProps) {
 
               <div className="relative mb-8">
                 <img
-                  src="/D5319628-D863-4F22-937E-F480233BF457.JPG"
+                  src="/E81CF059-9ED8-400A-A537-7C66359AA182.JPG"
                   alt="Private tour"
                   className="w-full h-80 object-cover mb-6"
                 />
@@ -245,7 +245,7 @@ export default function Tours({ onNavigate }: ToursProps) {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative group overflow-hidden shadow-lg">
               <img
-                src="/1380FA01-1BE3-465B-B6CB-9C7F2362DFCF.jpeg"
+                src="/image.png"
                 alt="Bernabrunnen fountain at Federal Palace"
                 className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
               />

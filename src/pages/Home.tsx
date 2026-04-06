@@ -8,7 +8,7 @@ export default function Home({ onNavigate }: HomeProps) {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-24 sm:py-0">
         <div className="absolute inset-0">
           <img
-            src="/bern-landing.JPG"
+            src="/image.png"
             alt="Historic Bern street with Zytglogge clock tower"
             className="w-full h-full object-cover object-center scale-105 transition-transform duration-[8000ms] hover:scale-100"
           />
@@ -57,7 +57,7 @@ export default function Home({ onNavigate }: HomeProps) {
       <section className="relative py-20 sm:py-32 md:py-40">
         <div className="absolute inset-0">
           <img
-            src="/sunsets/AF74FF43-1FE7-4FA9-8628-91EDF8B27FDE.JPG"
+            src="/E81CF059-9ED8-400A-A537-7C66359AA182.JPG"
             alt="Swiss landscape"
             className="w-full h-full object-cover"
           />
@@ -104,7 +104,7 @@ export default function Home({ onNavigate }: HomeProps) {
       <section className="relative min-h-screen flex items-center py-20 sm:py-0">
         <div className="absolute inset-0">
           <img
-            src="/844A69BF-B89A-4550-BF71-1F65FE169B5F.JPG"
+            src="/image.png"
             alt="Bern cityscape"
             className="w-full h-full object-cover"
           />

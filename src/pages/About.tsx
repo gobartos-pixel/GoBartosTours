@@ -4,7 +4,7 @@ export default function About() {
       <section className="relative h-screen flex items-end">
         <div className="absolute inset-0">
           <img
-            src="/people/DB5C3CB2-495D-4A26-8D7B-89440B9246DA.JPG"
+            src="/E81CF059-9ED8-400A-A537-7C66359AA182.JPG"
             alt="Bartos"
             className="w-full h-full object-cover"
           />
@@ -45,7 +45,7 @@ export default function About() {
       <section className="relative py-32">
         <div className="absolute inset-0">
           <img
-            src="/world/799FAA2A-9B8C-428C-9A13-5646CBF05267.JPG"
+            src="/image.png"
             alt="Bern streets"
             className="w-full h-full object-cover"
           />
@@ -72,7 +72,7 @@ export default function About() {
       <section className="relative min-h-screen flex items-center">
         <div className="absolute inset-0">
           <img
-            src="/DB88356F-35ED-4AD1-B62A-DE37083C7C11.JPG"
+            src="/E81CF059-9ED8-400A-A537-7C66359AA182.JPG"
             alt="Tour moment"
             className="w-full h-full object-cover"
           />
