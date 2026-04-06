@@ -16,26 +16,46 @@ export default function Home({ onNavigate }: HomeProps) {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display text-white mb-6 sm:mb-8 leading-[1.15] animate-fade-in drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-              Discover Bern. Understand Switzerland.
-            </h1>
+          <div className="max-w-3xl space-y-6 sm:space-y-8">
+            <div>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display text-white mb-4 sm:mb-6 leading-[1.1] drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+                Discover Bern. Understand Switzerland.
+              </h1>
 
-            <p className="text-lg sm:text-xl md:text-2xl text-white mb-5 sm:mb-6 max-w-2xl leading-relaxed font-light animate-fade-in animate-delay-200 drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
-              See beyond the monuments — and discover how this country really works.
-            </p>
+              <p className="text-lg sm:text-xl md:text-2xl text-white/95 leading-relaxed font-light drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+                See beyond the monuments — and discover how this country really works.
+              </p>
+            </div>
 
-            <p className="text-base sm:text-lg text-white/90 mb-3 sm:mb-4 max-w-2xl leading-relaxed font-light animate-fade-in animate-delay-200 drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
-              Free & Private Walking Tours with honest local insight.
-            </p>
+            <div className="space-y-2 sm:space-y-3">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-display italic text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+                Free Walking Tour
+              </h2>
+              <p className="text-base sm:text-lg text-white/90 leading-relaxed font-light drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+                Free & Private Walking Tours with honest local insight.
+              </p>
+            </div>
 
-            <p className="text-sm sm:text-base text-white/80 mb-8 sm:mb-12 max-w-2xl leading-relaxed font-light animate-fade-in animate-delay-200 drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
-              History. Legends. Local stories. The Swiss mindset. Real-life facts.
-              <br />
-              All explained in a simple, engaging way — with a touch of humor.
-            </p>
+            <div className="space-y-2 sm:space-y-3">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-display italic text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+                Private Experience
+              </h2>
+              <p className="text-base sm:text-lg text-white/90 leading-relaxed font-light drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+                History. Legends. Local stories. The Swiss mindset. Real-life facts.
+                All explained in a simple, engaging way — with a touch of humor.
+              </p>
+            </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 animate-fade-in animate-delay-400">
+            <div className="space-y-2 sm:space-y-3">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-display italic text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+                Alpine Day Trip
+              </h2>
+              <p className="text-base sm:text-lg text-white/90 leading-relaxed font-light drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+                Mountains, lakes, and stories. <span className="italic">Coming soon.</span>
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 sm:pt-6">
               <button
                 onClick={() => onNavigate('tours')}
                 className="px-8 sm:px-10 py-3 sm:py-4 bg-white/95 backdrop-blur-sm text-gray-900 text-base sm:text-lg font-medium hover:bg-white transition-all duration-300 hover:scale-105"
@@ -50,7 +70,6 @@ export default function Home({ onNavigate }: HomeProps) {
               </button>
             </div>
           </div>
-
         </div>
       </section>
 
