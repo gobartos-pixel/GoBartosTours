@@ -28,8 +28,8 @@ export default function Tours({ onNavigate }: ToursProps) {
         <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 space-y-24">
 
           <div className="relative">
-            <div className="absolute -left-6 top-0 text-8xl font-display text-stone-200">01</div>
-            <div className="relative pl-20">
+            <div className="absolute -left-6 top-0 text-8xl font-display text-stone-200 select-none pointer-events-none">01</div>
+            <div className="relative pl-20 z-10">
               <div className="mb-6">
                 <h2 className="text-4xl font-display text-gray-900 mb-2">
                   Free Walking Tour – Bern (English)
@@ -130,8 +130,8 @@ export default function Tours({ onNavigate }: ToursProps) {
           </div>
 
           <div className="relative">
-            <div className="absolute -left-6 top-0 text-8xl font-display text-stone-200">02</div>
-            <div className="relative pl-20">
+            <div className="absolute -left-6 top-0 text-8xl font-display text-stone-200 select-none pointer-events-none">02</div>
+            <div className="relative pl-20 z-10">
               <div className="mb-6">
                 <h2 className="text-4xl font-display text-gray-900 mb-2">
                   Private Walking Tour – Bern Old Town (English & Spanish)

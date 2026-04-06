@@ -100,7 +100,7 @@ export default function Home({ onNavigate }: HomeProps) {
         </div>
       </section>
 
-      <section className="relative min-h-screen flex items-center py-20 sm:py-0">
+      <section className="relative min-h-screen flex items-center py-20 sm:py-0 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/image.png"
@@ -111,14 +111,14 @@ export default function Home({ onNavigate }: HomeProps) {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-20 sm:py-32 w-full">
-          <div className="max-w-xl">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-white mb-10 sm:mb-12 leading-tight">
+          <div className="max-w-xl relative">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-white mb-10 sm:mb-12 leading-tight relative z-10">
               Choose your
               <br />
               <span className="italic">chapter</span>
             </h2>
 
-            <div className="space-y-8 sm:space-y-10">
+            <div className="space-y-8 sm:space-y-10 relative z-10">
               <div className="group cursor-pointer">
                 <div className="flex items-start gap-4 sm:gap-6 transition-all duration-300 group-hover:translate-x-2">
                   <div className="text-4xl sm:text-5xl font-display text-white/40 group-hover:text-white/70 transition-colors">01</div>
@@ -155,7 +155,7 @@ export default function Home({ onNavigate }: HomeProps) {
 
             <button
               onClick={() => onNavigate('tours')}
-              className="mt-12 sm:mt-16 px-8 sm:px-10 py-3 sm:py-4 bg-white/95 backdrop-blur-sm text-gray-900 text-base sm:text-lg font-medium hover:bg-white transition-all duration-300 hover:scale-105"
+              className="mt-12 sm:mt-16 px-8 sm:px-10 py-3 sm:py-4 bg-white/95 backdrop-blur-sm text-gray-900 text-base sm:text-lg font-medium hover:bg-white transition-all duration-300 hover:scale-105 relative z-10"
             >
               Explore all tours
             </button>
